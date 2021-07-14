@@ -19,7 +19,7 @@ public class UserDaoJDBCImpl implements UserDao {
                     "  `id` BIGINT NOT NULL AUTO_INCREMENT,\n" +
                     "  `name` VARCHAR(45) NOT NULL,\n" +
                     "  `lastname` VARCHAR(45) NOT NULL,\n" +
-                    "  `age` SMALLINT NOT NULL,\n" +
+                    "  `age` TINYINT NOT NULL,\n" +
                     "  PRIMARY KEY (`id`))\n" +
                     "ENGINE = InnoDB\n" +
                     "DEFAULT CHARACTER SET = utf8\n" +
